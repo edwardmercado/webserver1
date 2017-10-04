@@ -1,0 +1,80 @@
+<xml id = "menuXML" style = "display:none">
+	<products>
+		<product>
+			<burger>
+				<prodId>B001</prodId>
+				<prodName>Bacon Barbeque Burger</prodName>
+				<price>1000.00</price>
+				<image>Menu/burgerbaconbbq.jpg</image>
+			</burger>
+			<burger>
+				<prodId>B002</prodId>
+				<prodName>Bacon Cheese Burger</prodName>
+				<price>1000.00</price>
+				<image>Menu/burgerbaconcheese.jpg</image>
+			</burger>
+			<burger>
+				<prodId>B003</prodId>
+				<prodName>Barbeque Burger</prodName>
+				<price>1000.00</price>
+				<image>Menu/burgerbbq.jpg</image>
+			</burger>
+			<burger>
+				<prodId>B004</prodId>
+				<prodName>Barbeque Cheese Burger</prodName>
+				<price>1000.00</price>
+				<image>Menu/burgerbbqcheese.jpg</image>
+			</burger>
+			<burger>
+				<prodId>B005</prodId>
+				<prodName>Barbeque Burger with Egg</prodName>
+				<price>1000.00</price>
+				<image>Menu/burgerbbqegg.jpg</image>
+			</burger>
+			<burger>
+				<prodId>B006</prodId>
+				<prodName>Fully Loaded Burger</prodName>
+				<price>1000.00</price>
+				<image>Menu/burgerfully.jpg</image>
+			</burger>
+			<burger>
+				<prodId>B007</prodId>
+				<prodName>Half Pounder Burger</prodName>
+				<price>1000.00</price>
+				<image>Menu/burgerhalfpound.jpg</image>
+			</burger>
+			<burger>
+				<prodId>B008</prodId>
+				<prodName>Quarter Pounder Burger</prodName>
+				<price>1000.00</price>
+				<image>Menu/burgerquarterpound.jpg</image>
+			</burger>
+			<burger>
+				<prodId>B009</prodId>
+				<prodName>The Tower Burger</prodName>
+				<price>1000.00</price>
+				<image>Menu/burgertower.jpg</image>
+			</burger>
+			<burger>
+				<prodId>B010</prodId>
+				<prodName>Hamburger in Whitesauce</prodName>
+				<price>1000.00</price>
+				<image>Menu/burgerwhite.jpg</image>
+			</burger>
+		</product>
+		<product>
+			<drinks>
+				<prodId>D001</prodId>
+				<prodName>Oreo Frappe</prodName>
+				<price>1000.00</price>
+				<image>Menu/drinks1.jpg</image>
+			</drinks>
+			<drinks>
+				<prodId>D002</prodId>
+				<prodName>Caramel Macchiato</prodName>
+				<price>1000.00</price>
+				<image>Menu/drinks2.jpg</image>
+			</drinks>
+		</product>
+	</products>
+</xml>

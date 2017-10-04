@@ -1,0 +1,141 @@
+body{
+background-color:#ddd;
+font-family:"Tw Cen MT";
+}
+
+.dialog{
+	position:absolute;
+	top:13%;
+	left:20%;
+	height:70%;
+	width:60%;
+	background-color:white;
+	border: 2px solid #ddd;
+	box-shadow: 0px 3px 10px #888888;
+	
+}
+
+
+.dialog .dialogTitle{
+	position:relative;
+	background-color:#344b4b;
+	height:8%;
+	width:90%;
+	top:-5%;
+	left:5%;
+	text-align:center;
+	color:white;
+	font-size:200%;
+}
+
+.dialog .category{
+	position:absolute;
+	top:20%;
+	left:10%;
+	width:30%;
+}
+
+.dialog .prodName{
+	position:absolute;
+	top:40%;
+	left:10%;
+	width:30%;
+}
+
+.dialog .prodPrice{
+	position:absolute;
+	top:60%;
+	left:10%;
+	width:30%;
+	height:15%;
+}
+
+.dialog .uploadPic{
+	position:absolute;
+	top:22%;
+	left:50%;
+	height:38%;
+	width:40%;
+}
+
+.dialog .upload{
+	position:absolute;
+	top:63%;
+	left:50%;
+	width: 40%;
+	height:10%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+	
+}
+
+.dialog .add{
+	position:absolute;
+	top:85%;
+	left:10%;
+	width:35%;
+	height:10%;
+	background-color: #3bc6b6; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+	font-family: "Tw Cen MT";
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.dialog .back{
+	position:absolute;
+	top:85%;
+	left:55%;
+	height:10%;	
+	width:35%;
+	background-color: #3bc6b6; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+	font-family: "Tw Cen MT";
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+select[name=cmbCategory] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.dialog .pic img{
+	box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+

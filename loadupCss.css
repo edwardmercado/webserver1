@@ -1,0 +1,334 @@
+body{
+	background-color:#ddd;
+	font-family: "Tw Cen MT";
+	overflow:hidden;
+}
+
+.topBar{
+	position:absolute;
+	top:0%;
+	left:0%;
+	height:10%;
+	width:100%;
+	background-color:#4c913e;
+}
+
+.topBar a{
+	position:absolute;
+	top:16.3%;
+	left:2%;
+	height:58%;
+	width:3.0%;
+	z-index:1;
+	opacity:0%;
+	color:transparent;
+	background-color:transparent;
+}
+
+.topBar img{
+	position:absolute;
+	top:30%;
+	left:2%;
+}
+
+#title{
+	position:relative;
+	top:18%;
+	text-align:center;
+	height:70%;
+	width:auto;
+	font-family:"Arvo";
+	color:white;
+	font-size:220%;
+}	
+
+.menuBar{
+	position:absolute;
+	top:10%;
+	left:0%;
+	height:12%;
+	width:100%;
+	background-color:white;
+}
+
+.menuBar .add{
+	position:absolute;
+	top:18%;
+	left:7%;
+	height:70%;
+	width: 15%;
+	background: #4c913e;
+	font-size:100%;
+	border-radius:25px;
+	background-color: #4c913e;
+	font-family: "Tw Cen MT";
+	background-color: white; 
+    color: black; 
+    border: 2px solid #4c913e;
+	-webkit-transition-duration: 0.4s;
+}
+
+.menuBar .add:hover{
+    background-color: #4c913e;
+    color: white;
+}
+
+
+.menuBar .load{
+	position:absolute;
+	top:18%;
+	left:23%;
+	height:70%;
+	width: 15%;
+	background: #4c913e;
+	font-size:100%;
+	border-radius:25px;
+	background-color: #4c913e;
+	font-family: "Tw Cen MT";
+	background-color: white; 
+    color: black; 
+    border: 2px solid #4c913e;
+	-webkit-transition-duration: 0.4s;
+}
+
+.menuBar .load:hover{
+    background-color: #4c913e;
+    color: white;
+}
+
+
+.loadHistory{
+	position:absolute;
+	top:32%;
+	left:1.5%;
+	height:64%;
+	width:97%;
+	background-color:white;
+	overflow:auto;
+}
+
+.titleBar{
+	position:absolute;
+	top:24%;
+	left:1.5%;
+	height:8%;
+	width:97%;
+	background-color:#ff7a1b;
+}
+
+.titleBar #title{
+	position:relative;
+	top:10%;
+	text-align:center;
+	font-family: "Tw Cen MT";
+	
+}
+
+/* .menuList{
+	position:absolute;
+	top:25%;
+	left:35.5%;
+	height:72%;
+	width:63%;
+	background-color:white;
+	overflow:auto;
+}
+
+.menuList .titleBar{
+	position:relative;
+	top:0%;
+	left:0%;
+	height:10%;
+	width:100%;
+	background-color:#ff7a1b;
+}
+
+.menuList #title{
+	position:relative;
+	top:3%;
+	text-align:center;
+	font-family: "Tw Cen MT";
+} */
+
+.naviBar{
+	position:absolute;
+	top:10%;
+	left:0%;
+	height:90%;
+	width:30%;
+	background-color:#295229;
+	z-index:5;
+}
+
+.naviBar img{
+	position:absolute;
+	left:42%;
+	top:5%;
+	background-color:#295229;
+}
+
+.naviBar #name{
+	position:relative;
+	text-align:center;
+	top:20%;
+	color:white;
+	font-size:150%;
+}
+
+.naviBar .profile{
+	position:absolute;
+	top:30%;
+	left:0%;
+	height:10%;
+	width:100%;
+	font-size:100%;
+	background-color:#295229;
+	color:white;
+	border:none;
+	-webkit-transition-duration: 0.4s;
+}
+
+.naviBar .profile:hover{
+	background-color:#0f3d0f;
+	color:white;
+}
+
+.line1{
+	position:absolute;
+	top:40%;
+	left:0%;
+	height:0.3%;
+	width:100%;
+	background-color:white;
+}
+
+.naviBar .orders{
+	position:absolute;
+	top:40.3%;
+	left:0%;
+	height:10%;
+	width:100%;
+	font-size:100%;
+	background-color:#295229;
+	color:white;
+	border:none;
+	-webkit-transition-duration: 0.4s;
+}
+
+.naviBar .orders:hover{
+	background-color:#0f3d0f;
+	color:white;
+}
+
+.naviBar .load{
+	position:absolute;
+	top:50.3%;
+	left:0%;
+	height:10%;
+	width:100%;
+	font-size:100%;
+	background-color:#0f3d0f;
+	color:white;
+	border:none;
+	-webkit-transition-duration: 0.4s;
+}
+
+
+
+.line2{
+	position:absolute;
+	top:85%;
+	left:0%;
+	height:0.3%;
+	width:100%;
+	background-color:white;
+}
+.naviBar .logout{
+	position:absolute;
+	top:85.3%;
+	left:0%;
+	height:10%;
+	width:100%;
+	font-size:100%;
+	background-color:#295229;
+	color:white;
+	border:none;
+	-webkit-transition-duration: 0.4s;
+}
+
+.naviBar .logout:hover{
+	background-color:#0f3d0f;
+	color:white;
+}
+
+.naviBar #footer{
+	position:absolute;
+	top:96%;
+	text-align:center;
+	font-size:50%;	
+	color:white;
+	height:2%;
+	width:100%;
+}
+
+.dim{
+	position:absolute;
+	top:10%;
+	left:0%;
+	height:90%;
+	width:100%;
+	background-color:black;
+	opacity:0.8;
+	z-index:1;
+	visibility:hidden;
+	-webkit-transition-duration: 0.6s;
+}
+
+#dialog {
+	font-family: "Tw Cen MT";
+} 
+
+.ui-dialog-titlebar {
+  background-color: #4c913e;
+  background-image: none;
+  color: white;
+}
+
+.ui-widget-overlay {
+   background: #000000;
+   opacity:0.8;
+}
+
+
+table {
+	position:relative;
+	width:100%;
+    border-collapse: collapse;
+	font-size:85%;
+	font-family: verdana;
+	overflow-y:auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+	border:1;
+}
+th {
+    background-color: #3bc6b6;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr{
+background-color:#f5f5f5;
+}
+
+
+
+
+
+
